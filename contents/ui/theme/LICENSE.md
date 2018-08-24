@@ -1,44 +1,19 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <title>Pantheon | Site Locked</title>
-  <style type='text/css'>
-  body {
-    background-color: white;
-    color: #333333;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 36px;
-    line-height: 18px;
-    font-size: 14px;
-  }
-  .container {
-    width: 425px;
-  }
-  p {
-    text-align: center;
-  }
-</style>
-</head>
-<body>
-  <div align="center">
-    <div class='container' align="left">
-<pre>
+Copyright (c) Ben Word and Scott Walkinshaw
 
-                     __  .__
-___________    _____/  |_|  |__   ____  ____   ____
-\____ \__  \  /    \   __\  |  \_/ __ \/  _ \ /    \
-|  |_> > __ \|   |  \  | |   Y  \  ___(  <_> )   |  \
-|   __(____  /___|  /__| |___|  /\___  >____/|___|  /
-|__|       \/     \/          \/     \/           \/
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies
+of the Software, and to permit persons to whom the Software is furnished to do
+so, subject to the following conditions:
 
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-</pre>
-      <p>
-        This site is locked.  Please contact the administrator for access.
-      </p>
-    </div>
-  </div>
-</body>
-</html>
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

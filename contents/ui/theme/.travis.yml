@@ -1,44 +1,31 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <title>Pantheon | Site Locked</title>
-  <style type='text/css'>
-  body {
-    background-color: white;
-    color: #333333;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 36px;
-    line-height: 18px;
-    font-size: 14px;
-  }
-  .container {
-    width: 425px;
-  }
-  p {
-    text-align: center;
-  }
-</style>
-</head>
-<body>
-  <div align="center">
-    <div class='container' align="left">
-<pre>
+sudo: false
+language: php
+php:
+  - nightly
+  - 5.6
+  - 5.5
+  - 5.4
+  - hhvm
 
-                     __  .__
-___________    _____/  |_|  |__   ____  ____   ____
-\____ \__  \  /    \   __\  |  \_/ __ \/  _ \ /    \
-|  |_> > __ \|   |  \  | |   Y  \  ___(  <_> )   |  \
-|   __(____  /___|  /__| |___|  /\___  >____/|___|  /
-|__|       \/     \/          \/     \/           \/
+matrix:
+  allow_failures:
+    - php: nightly
 
+cache:
+  directories:
+    - bower_components
+    - node_modules
 
-</pre>
-      <p>
-        This site is locked.  Please contact the administrator for access.
-      </p>
-    </div>
-  </div>
-</body>
-</html>
+install:
+  - npm install -g npm@latest
+  - npm install -g bower gulp jscs
+  - npm install
+  - composer self-update && composer --version
+  - export PATH="$HOME/.composer/vendor/bin:$PATH"
+  - composer global require squizlabs/php_codesniffer
+
+script:
+  - npm run build
+  - npm run jshint
+  - npm run jscs
+  - phpcs --standard=ruleset.xml --extensions=php -n -s .

@@ -1,44 +1,95 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <title>Pantheon | Site Locked</title>
-  <style type='text/css'>
-  body {
-    background-color: white;
-    color: #333333;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 36px;
-    line-height: 18px;
-    font-size: 14px;
-  }
-  .container {
-    width: 425px;
-  }
-  p {
-    text-align: center;
-  }
-</style>
-</head>
-<body>
-  <div align="center">
-    <div class='container' align="left">
-<pre>
-
-                     __  .__
-___________    _____/  |_|  |__   ____  ____   ____
-\____ \__  \  /    \   __\  |  \_/ __ \/  _ \ /    \
-|  |_> > __ \|   |  \  | |   Y  \  ___(  <_> )   |  \
-|   __(____  /___|  /__| |___|  /\___  >____/|___|  /
-|__|       \/     \/          \/     \/           \/
-
-
-</pre>
-      <p>
-        This site is locked.  Please contact the administrator for access.
-      </p>
-    </div>
-  </div>
-</body>
-</html>
+{
+  "requireCurlyBraces": [
+    "if",
+    "else",
+    "for",
+    "while",
+    "do",
+    "try",
+    "catch"
+  ],
+  "requireOperatorBeforeLineBreak": true,
+  "requireCamelCaseOrUpperCaseIdentifiers": true,
+  "maximumLineLength": {
+    "value": 80,
+    "allowComments": true,
+    "allowRegex": true
+  },
+  "validateIndentation": 2,
+  "validateQuoteMarks": "'",
+  "disallowMultipleLineStrings": true,
+  "disallowMixedSpacesAndTabs": true,
+  "disallowTrailingWhitespace": true,
+  "disallowSpaceAfterPrefixUnaryOperators": true,
+  "disallowMultipleVarDecl": true,
+  "disallowKeywordsOnNewLine": [
+    "else"
+  ],
+  "requireSpaceAfterKeywords": [
+    "if",
+    "else",
+    "for",
+    "while",
+    "do",
+    "switch",
+    "return",
+    "try",
+    "catch"
+  ],
+  "requireSpaceBeforeBinaryOperators": [
+    "=",
+    "+=",
+    "-=",
+    "*=",
+    "/=",
+    "%=",
+    "<<=",
+    ">>=",
+    ">>>=",
+    "&=",
+    "|=",
+    "^=",
+    "+=",
+    "+",
+    "-",
+    "*",
+    "/",
+    "%",
+    "<<",
+    ">>",
+    ">>>",
+    "&",
+    "|",
+    "^",
+    "&&",
+    "||",
+    "===",
+    "==",
+    ">=",
+    "<=",
+    "<",
+    ">",
+    "!=",
+    "!=="
+  ],
+  "requireSpaceAfterBinaryOperators": true,
+  "requireSpacesInConditionalExpression": true,
+  "requireSpaceBeforeBlockStatements": true,
+  "requireSpacesInForStatement": true,
+  "requireLineFeedAtFileEnd": true,
+  "requireSpacesInFunctionExpression": {
+    "beforeOpeningCurlyBrace": true
+  },
+  "disallowSpacesInAnonymousFunctionExpression": {
+    "beforeOpeningRoundBrace": true
+  },
+  "disallowSpacesInsideObjectBrackets": "all",
+  "disallowSpacesInsideArrayBrackets": "all",
+  "disallowSpacesInsideParentheses": true,
+  "jsDoc": {
+    "checkParamNames": true,
+    "requireParamTypes": true
+  },
+  "disallowMultipleLineBreaks": true,
+  "disallowNewlineBeforeBlockStatements": true
+}
