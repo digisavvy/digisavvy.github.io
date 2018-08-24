@@ -1,44 +1,30 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <title>Pantheon | Site Locked</title>
-  <style type='text/css'>
-  body {
-    background-color: white;
-    color: #333333;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 36px;
-    line-height: 18px;
-    font-size: 14px;
+{
+  "name": "roots/sage",
+  "type": "wordpress-theme",
+  "license": "MIT",
+  "description": "The best WordPress starter theme with a modern front-end development workflow. Based on HTML5 Boilerplate, gulp, Bower, and Bootstrap.",
+  "homepage": "https://roots.io/sage/",
+  "authors": [
+    {
+      "name": "Ben Word",
+      "email": "ben@benword.com",
+      "homepage": "https://github.com/retlehs"
+    },
+    {
+      "name": "Scott Walkinshaw",
+      "email": "scott.walkinshaw@gmail.com",
+      "homepage": "https://github.com/swalkinshaw"
+    }
+  ],
+  "keywords": [
+    "wordpress"
+  ],
+  "support": {
+    "issues": "https://github.com/roots/sage/issues",
+    "forum": "https://discourse.roots.io/"
+  },
+  "require": {
+    "php": ">=5.4.0",
+    "composer/installers": "~1.0"
   }
-  .container {
-    width: 425px;
-  }
-  p {
-    text-align: center;
-  }
-</style>
-</head>
-<body>
-  <div align="center">
-    <div class='container' align="left">
-<pre>
-
-                     __  .__
-___________    _____/  |_|  |__   ____  ____   ____
-\____ \__  \  /    \   __\  |  \_/ __ \/  _ \ /    \
-|  |_> > __ \|   |  \  | |   Y  \  ___(  <_> )   |  \
-|   __(____  /___|  /__| |___|  /\___  >____/|___|  /
-|__|       \/     \/          \/     \/           \/
-
-
-</pre>
-      <p>
-        This site is locked.  Please contact the administrator for access.
-      </p>
-    </div>
-  </div>
-</body>
-</html>
+}
