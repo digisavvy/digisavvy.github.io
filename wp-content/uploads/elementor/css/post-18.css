@@ -1,0 +1,26 @@
+.elementor-18 .elementor-element.elementor-element-6babfc80:not(.elementor-motion-effects-element-type-background), .elementor-18 .elementor-element.elementor-element-6babfc80 > .elementor-motion-effects-container > .elementor-motion-effects-layer {background-color: #ededed;}
+.elementor-18 .elementor-element.elementor-element-6babfc80 {transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;padding: 100px 0px 100px 0px;}
+.elementor-18 .elementor-element.elementor-element-6babfc80 > .elementor-background-overlay {transition: background .3s,border-radius .3s,opacity .3s;}
+.elementor-18 .elementor-element.elementor-element-5c48493 > .elementor-element-populated {padding: 0% 25% 0% 25%;}
+.elementor-18 .elementor-element.elementor-element-197ef0b9 {text-align: center;}
+.elementor-18 .elementor-element.elementor-element-197ef0b9.elementor-widget-heading .elementor-heading-title {color: #000;}
+.elementor-18 .elementor-element.elementor-element-197ef0b9 .elementor-heading-title {font-size: 45px;font-weight: 600;}
+.elementor-18 .elementor-element.elementor-element-35192013 .elementor-text-editor {text-align: center;}
+.elementor-18 .elementor-element.elementor-element-35192013 {color: #000;font-size: 15px;font-weight: 300;}
+.elementor-18 .elementor-element.elementor-element-35192013 > .elementor-widget-container {margin: -5px 0px 0px 0px;padding: 0px 0px 0px 20px;}
+.elementor-18 .elementor-element.elementor-element-5aac5439 .elementor-field-group {padding-right: calc(0px / 2);padding-left: calc(0px / 2);margin-bottom: 0px;}
+.elementor-18 .elementor-element.elementor-element-5aac5439 .elementor-form-fields-wrapper {margin-left: calc(-0px / 2);margin-right: calc(-0px / 2);margin-bottom: -0px;}
+body.rtl .elementor-18 .elementor-element.elementor-element-5aac5439 .elementor-labels-inline .elementor-field-group > label {padding-left: 0px;}
+body:not(.rtl) .elementor-18 .elementor-element.elementor-element-5aac5439 .elementor-labels-inline .elementor-field-group > label {padding-right: 0px;}
+body .elementor-18 .elementor-element.elementor-element-5aac5439 .elementor-labels-above .elementor-field-group > label {padding-bottom: 0px;}
+.elementor-18 .elementor-element.elementor-element-5aac5439 .elementor-field-group > label {font-size: 15px;font-weight: 600;}
+.elementor-18 .elementor-element.elementor-element-5aac5439 .elementor-field-group .elementor-field {color: #000;}
+.elementor-18 .elementor-element.elementor-element-5aac5439 .elementor-field-group .elementor-field, .elementor-18 .elementor-element.elementor-element-5aac5439 .elementor-field-subgroup label {font-size: 15px;font-weight: 400;}
+.elementor-18 .elementor-element.elementor-element-5aac5439 .elementor-field-group:not(.elementor-field-type-upload) .elementor-field:not(.elementor-select-wrapper) {background-color: rgba(0,0,0,.11);border-width: 0px 0px 0px 0px;border-radius: 0px 0px 0px 0px;}
+.elementor-18 .elementor-element.elementor-element-5aac5439 .elementor-field-group .elementor-select-wrapper select {background-color: rgba(0,0,0,.11);border-width: 0px 0px 0px 0px;border-radius: 0px 0px 0px 0px;}
+.elementor-18 .elementor-element.elementor-element-5aac5439 .elementor-button {background-color: #000;color: #fff;font-size: 15px;font-weight: 600;text-transform: uppercase;border-radius: 0px 0px 0px 0px;}
+.elementor-18 .elementor-element.elementor-element-5aac5439 .elementor-button:hover {background-color: #00ce1b;color: #fff;}
+@media (max-width:1024px) {.elementor-18 .elementor-element.elementor-element-6babfc80 {padding: 50px 25px 50px 25px;}
+	.elementor-18 .elementor-element.elementor-element-5c48493 > .elementor-element-populated {padding: 0px 100px 0px 100px;}}
+@media (max-width:767px) {.elementor-18 .elementor-element.elementor-element-6babfc80 {padding: 50px 25px 50px 25px;}
+	.elementor-18 .elementor-element.elementor-element-5c48493 > .elementor-element-populated {padding: 0px 0px 0px 0px;}}
